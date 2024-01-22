@@ -13,14 +13,6 @@
         "scope": "system"
       },
       {
-        "name": "MeteoFI",
-        "url": "https://data.meteo.fi/edr",
-        "id": "meteo",
-        "description": "Meteo.FI EDR",
-        "type": "EDR",
-        "scope": "system"
-      },
-      {
         "name": "KNMI",
         "url": "https://gw-edr-dev-add-cfn.pub.dev.knmi.cloud/edr",
         "id": "knmi",
@@ -44,11 +36,6 @@
         "id": "knmi-radar"
       },
       {
-        "name": "Meteo.fi",
-        "url": "https://data.meteo.fi/wms?",
-        "id": "smartmet-meteofi"
-      },
-      {
         "name": "FMI",
         "url": "https://openwms.fmi.fi/geoserver/wms?",
         "id": "fmi"
@@ -56,37 +43,37 @@
       {
         "name": "MET Norway",
         "url": "https://halo-wms.met.no/halo/default.map?",
-        "id": "met-no",
+        "id": "met-no"
       },
       {
         "name": "KNMI Harmonie",
         "url": "https://geoservices.knmi.nl/adagucserver?dataset=HARM_N25",
-        "id": "knmi-harmonie",
+        "id": "knmi-harmonie"
       },
       {
         "name": "KNMI Observations",
         "url": "https://geoservices.knmi.nl/adagucserver?dataset=OBS",
-        "id": "knmi-obs",
+        "id": "knmi-obs"
       },
       {
         "name": "DWD",
         "url": "https://maps.dwd.de/geoserver/ows?",
-        "id": "dwd",
+        "id": "dwd"
       },
       {
         "name": "EUMETSAT",
         "url": "https://view.eumetsat.int/geoserver/wms?",
-        "id": "eumetsat",
+        "id": "eumetsat"
       },
       {
         "name": "ECMWF",
         "url": "https://eccharts.ecmwf.int/wms/?token=public",
-        "id": "ecmwf",
+        "id": "ecmwf"
       },
       {
         "name": "NOAA Tropical Cyclones",
         "url": "https://mapservices.weather.noaa.gov/tropical/services/tropical/NHC_tropical_weather/MapServer/WMSServer?",
-        "id": "noaatropicalcyclones",
+        "id": "noaatropicalcyclones"
       }
     ],
     "layers": [
@@ -94,14 +81,14 @@
         "id": "base-layer-1",
         "name": "WorldMap_Light_Grey_Canvas",
         "type": "twms",
-        "layerType": "baseLayer",
+        "layerType": "baseLayer"
       },
       {
         "id": "base-layer-2",
         "name": "OpenStreetMap_NL",
         "type": "twms",
         "layerType": "baseLayer",
-        "enabled": true,
+        "enabled": true
       },
       {
         "id": "base-layer-3",
@@ -109,7 +96,7 @@
         "name": "arcGisCanvas",
         "type": "twms",
         "layerType": "baseLayer",
-        "enabled": true,
+        "enabled": true
       },
       {
         "service": "https://geoservices.knmi.nl/wms?DATASET=baselayers",
@@ -117,7 +104,7 @@
         "id": "countryborders",
         "format": "image/png",
         "enabled": true,
-        "layerType": "overLayer",
+        "layerType": "overLayer"
       }
     ]
   }
