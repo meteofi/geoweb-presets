@@ -13,6 +13,14 @@
         "scope": "system"
       },
       {
+        "name": "Meteo.fi",
+        "url": "https://data.meteo.fi/edr",
+        "id": "meteo",
+        "description": "Meteo.fi EDR",
+        "type": "EDR",
+        "scope": "system"
+      },
+      {
         "name": "KNMI",
         "url": "https://gw-edr-dev-add-cfn.pub.dev.knmi.cloud/edr",
         "id": "knmi",
