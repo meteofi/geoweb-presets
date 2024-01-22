@@ -59,7 +59,7 @@
         "description": "FEMDI Netherlands EDR",
         "type": "EDR",
         "scope": "system"
-      },
+      }
     ],
     "services": [
       {
