@@ -90,6 +90,11 @@
         "name": "NOAA Tropical Cyclones",
         "url": "https://mapservices.weather.noaa.gov/tropical/services/tropical/NHC_tropical_weather/MapServer/WMSServer?",
         "id": "noaatropicalcyclones"
+      },
+      {
+        "name": "NOAA",
+        "url": "https://nowcoast.noaa.gov/geoserver/wms",
+        "id": "nowcoastnoaa"
       }
     ],
     "layers": [
