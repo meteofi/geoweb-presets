@@ -21,6 +21,14 @@
         "scope": "system"
       },
       {
+        "name": "IBL",
+        "url": "https://ogcie.iblsoft.com/edr",
+        "id": "ibl",
+        "description": "IBL EDR",
+        "type": "EDR",
+        "scope": "system"
+      },
+      {
         "name": "KNMI",
         "url": "https://gw-edr-dev-add-cfn.pub.dev.knmi.cloud/edr",
         "id": "knmi",
