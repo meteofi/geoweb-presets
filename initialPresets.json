@@ -43,7 +43,23 @@
         "description": "MET Norway EDR",
         "type": "EDR",
         "scope": "system"
-      }
+      },
+      {
+        "name": "FEMDI DK",
+        "url": "https://femdi.rauhalat.org/dk",
+        "id": "femdi-dk",
+        "description": "FEMDI Denmark EDR",
+        "type": "EDR",
+        "scope": "system"
+      },
+      {
+        "name": "FEMDI NL",
+        "url": "https://femdi.rauhalat.org/nl",
+        "id": "femdi-nl",
+        "description": "FEMDI Netherlands EDR",
+        "type": "EDR",
+        "scope": "system"
+      },
     ],
     "services": [
       {
