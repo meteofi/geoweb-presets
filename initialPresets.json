@@ -53,18 +53,18 @@
       },
       {
         "name": "FMI",
-        "url": "https://openwms.fmi.fi/geoserver/wms?",
+        "url": "https://openwms.fmi.fi/geoserver/wms",
         "id": "fmi"
       },
       {
-        "name": "MET Norway",
-        "url": "https://halo-wms.met.no/halo/default.map?",
-        "id": "met-no"
+        "name": "SmartMet Meteo",
+        "url": "https://data.meteo.fi/wms",
+        "id": "smartmet-meteo"
       },
       {
-        "name": "KNMI Harmonie",
-        "url": "https://geoservices.knmi.nl/adagucserver?dataset=HARM_N25",
-        "id": "knmi-harmonie"
+        "name": "MET Norway",
+        "url": "https://halo-wms.met.no/halo/default.map",
+        "id": "met-no"
       },
       {
         "name": "KNMI Observations",
