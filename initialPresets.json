@@ -45,8 +45,16 @@
         "scope": "system"
       },
       {
+        "name": "FEMDI FI",
+        "url": "https://apisixdev.eumetnet-femdi.eumetsat.ewcloud.host/fi/edr",
+        "id": "femdi-fi",
+        "description": "FEMDI Finland EDR",
+        "type": "EDR",
+        "scope": "system"
+      },
+      {
         "name": "FEMDI DK",
-        "url": "https://femdi.rauhalat.org/dk",
+        "url": "https://femdi.rauhalat.org/dk/edr",
         "id": "femdi-dk",
         "description": "FEMDI Denmark EDR",
         "type": "EDR",
@@ -54,7 +62,7 @@
       },
       {
         "name": "FEMDI NL",
-        "url": "https://femdi.rauhalat.org/nl",
+        "url": "https://femdi.rauhalat.org/nl/edr",
         "id": "femdi-nl",
         "description": "FEMDI Netherlands EDR",
         "type": "EDR",
